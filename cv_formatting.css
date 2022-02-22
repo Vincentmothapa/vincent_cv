@@ -1,0 +1,77 @@
+/* Align images */
+		img {
+			float: left;
+		}
+		body {
+			/* Beige background for the site */
+			background-color: beige;
+			
+			/* Justify to make paragraphs look neater */
+			text-align: justify;
+		}
+		
+		/* Cursive class for the heading */
+		h1 {
+			font-family: "Cursive", Lucida Handwriting;
+		}
+		
+		/* Underline h2 headings with a 5 pixel thick dark cyan line */
+		h2 {
+			text-decoration: underline 5px;     
+			text-decoration-color: darkCyan;  
+		}
+		
+		/* Create columns for education section */
+		.column1 {
+			  float: left;
+			  width: 30%;
+			  padding: 20px;
+			  height: 420px;
+		}
+		
+		/* Column for additional skills and contact details */
+		.column2 {
+			  float: left;
+			  width: 30%;
+			  padding: 20px;
+			  height: 200px;
+		}
+		
+		/* Column for work experience */
+		.column3 {
+			  float: left;
+			  width: 45%;
+			  padding: 20px;
+			  height: 305px;
+		}
+		
+		/* Column for projects */
+		.column4 {
+			  float: left;
+			  width: 45%;
+			  padding: 20px;
+			  height: 300px;
+		}
+		
+		/* Column for design project */
+		.column5 {
+			  float: left;
+			  width: 45%;
+			  padding: 20px;
+			  height: 480px;
+		}
+		
+		/* Column for electrification project */
+		.column6 {
+			  float: left;
+			  width: 45%;
+			  padding: 20px;
+			  height: 180px;
+		}
+		
+		.row:after {
+			  content: "";
+			  display: table;
+			  clear: both;
+		}
+		
